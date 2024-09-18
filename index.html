@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oghogho Paul Orieno - Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="./Assets/WhatsApp Image 2024-09-13 at 12.05.45_2.jpg"
+            alt="Logo"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Frontend Engineer</h1>
+          <p>Hi, I'm <span>Oghogho Paul</span><br />Orieno From Nigeria.</p>
+        </div>
+      </div>
+    </header>
+
+<!-- About Me -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./Assets/IMG_2018.jpg" alt="Oghogho Paul Orieno" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p>
+              My name is Oghogho Paul Orieno, I am from Delta State, Nigeria.
+I am a certified Frontend Engineer who focuses on creating user-friendly interfaces.
+I am passionate about building scalable and maintainable web applications.
+I have a strong foundation in HTML, CSS, and JavaScript. I am also proficient in React.
+I am always eager to learn and grow in my field. I also encourage the team-building spirit and am a two-time team lead during my study. I was also a community champion since I have a keen sense of interest in community development, and every workspace needs a good community to stand.
+I may be new with not much experience but I am willing to put in the work and grow with your company while learning new technologies, frameworks and libraries.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents">
+              <div class="tab-content active-tab" id="skills">
+                <h3>Skills</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Vue.js</li>
+                  <li>TypeScript</li>
+                  <li>Technical Writing</li>
+                  <li>Agile Software Development</li>
+                  <li>Soft Skills</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="experience">
+                <h3>Experience</h3>
+                <ul>
+                  <li>2023 - 2023: Data Analyst Intern at Jovation.</li>
+                  <li>2024 - 2024: Frontend Intern at HNG Lv2.</li>
+                  <li>
+                    2023 - 2024: Frontend Engineer Student at AltSchool Africa.
+                  </li>
+                  <li>
+                    2023 - 2024: Two-time Circle Lead at AltSchool Africa (First
+                    and second semester).
+                  </li>
+                  <li>
+                    2023 - 2024: Top community contributor as a student at
+                    AltSchool Africa.
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content" id="education">
+                <h3>Education</h3>
+                <ul>
+                  <li>Frontend Engineering Course - AltSchool Africa(DIploma).</li>
+                  <li>Theatre Arts - Delta State University, Nigeria(BA).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Services -->
+
+    <section id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>Frontend Engineer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              ad perferendis facilis nobis at molestias! Cupiditate eos, cum
+              tempora consequuntur nam perspiciatis. Ab laudantium reprehenderit
+              nemo? Reiciendis similique debitis magni?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>Technical Writing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              ad perferendis facilis nobis at molestias! Cupiditate eos, cum
+              tempora consequuntur nam perspiciatis. Ab laudantium reprehenderit
+              nemo? Reiciendis similique debitis magni?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Portfolio -->
+<section id="portfolio">
+  <div class="container">
+    <h2 class="sub-title">My Work</h2>
+    <div class="work-list">
+      <div class="work">
+        <img src="./Assets/Work-png 1.jpg" alt="Github Search Project" />
+        <div class="layer">
+          <h3>Github Search</h3>
+          <p>A simple web application that allows users to search for GitHub profiles.</p>
+          <a href="#" aria-label="Learn more about Github Search project"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./Assets/Work-png 2.jpg" alt="Figma Design Representation" />
+        <div class="layer">
+          <h3>Figma Design Representation</h3>
+          <p>A pixel-perfect implementation of a Figma design.</p>
+          <a href="#" aria-label="Learn more about Figma Design project"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./Assets/placeholder-project.jpg" alt="Placeholder Project" />
+        <div class="layer">
+          <h3>Upcoming Project</h3>
+          <p>Stay tuned for my next exciting project!</p>
+          <a href="#" aria-label="Learn more about upcoming project"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</section>
+
+<!--  Contact Info  -->
+  <div id="Contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>oghoghoorieno@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+2348028306270</p>
+          <div class="social-icons">
+            <a href="https://x.com/P_O_J_RIENO?t=0NIvVLkrwtdwmtjBkGXnEw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/oghogho-orieno-58ba50204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://hashnode.com/@Orieno3"><i class="fa-brands fa-hashnode"></i></a>
+            <a href="https://www.instagram.com/p.o.j.rieno?igsh=ajdqYno1c2d4Zzdk"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="./Assets/Resume-img.jpeg" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright © Oghogho. My portfolio.</p>
+    </div>
+  </div>
+
+
+
+<!-- Script -->
+
+<script>
+  function openTab(tabName) {
+    const tabContents = document.getElementsByClassName("tab-content");
+    const tabLinks = document.getElementsByClassName("tab-links");
+
+    for (let i = 0; i < tabContents.length; i++) {
+      tabContents[i].classList.remove("active-tab");
+      tabLinks[i].classList.remove("active-link");
+    }
+
+    document.getElementById(tabName).classList.add("active-tab");
+    event.currentTarget.classList.add("active-link");
+  }
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxB8G0JhjwBf_xtSV4B2DaHdCCP-tpG2fIYnbEQ4CCDeSMjiEl2YDLrVHwV0QlGyLKH0Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(() => {
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
